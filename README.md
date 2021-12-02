@@ -19,11 +19,11 @@ Python2
 
     登录后按F12打开开发者工具，或者在网页空白处右键点击“检查”，如下图：
 
-    ![image](%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E8%87%AA%E5%8A%A8%E5%81%A5%E5%BA%B7%E4%B8%8A%E6%8A%A5%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99/144440784-d825f6ea-1657-470e-8fe5-ee94025789cd.png)
-
+    ![image](https://user-images.githubusercontent.com/66706544/144440784-d825f6ea-1657-470e-8fe5-ee94025789cd.png)
+  
     然后在控制台(console)输入`document.cookie`查看当前cookie字符串：
-
-    ![image](%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E8%87%AA%E5%8A%A8%E5%81%A5%E5%BA%B7%E4%B8%8A%E6%8A%A5%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99/144441988-90e30845-8a31-4c28-9751-1202047df99d.png)
+  
+    ![image](https://user-images.githubusercontent.com/66706544/144441988-90e30845-8a31-4c28-9751-1202047df99d.png)
 
     复制后粘贴到脚本中即可
 
