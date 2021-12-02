@@ -32,3 +32,5 @@ Python2
   ```sh
   python2 auto_health_check.py
   ```
+  
+  可以挂在服务器上设置定时任务运行，或者直接在代码中加sleep 24h。
