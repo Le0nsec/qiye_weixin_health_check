@@ -33,4 +33,6 @@ Python2
   python2 auto_health_check.py
   ```
   
-  可以挂在服务器上设置定时任务运行，或者直接在代码中加sleep 24h。
+  脚本中使用了server酱进行通知，打卡成功或者失败都将通知到手机，<SENDKEY>需要自行替换，具体用法参考[https://sct.ftqq.com/](https://sct.ftqq.com/)，如果不需要，可以自行删除这部分代码
+  
+  关于自动打卡，可以挂在服务器上设置定时任务运行，或者直接在代码中加sleep 24h。
