@@ -36,4 +36,14 @@ Python2
 
     脚本中使用了server酱进行通知，打卡成功或者失败都将通知到手机，<SENDKEY>需要自行替换，具体用法参考[https://sct.ftqq.com/](https://sct.ftqq.com/)，如果不需要，可以自行删除这部分代码
 
-    关于自动打卡，可以挂在服务器上设置定时任务运行，或者直接在代码中加sleep 24h。
+    ~~关于自动打卡，可以挂在服务器上设置定时任务运行，或者直接在代码中加sleep 24h。~~
+    
+    由于微文档的cookie只有一天有效期，无法持续自动打卡，所以去看了一下企业微信的授权认证方式，发现是通过传wwapp_cst、wwapp_deviceid等参数给服务端，服务端确认后才set-cookie
+    
+    ![1D52FDC01412243CF39B623B0AD37268](https://user-images.githubusercontent.com/66706544/145207955-43edaed3-3b32-4dd6-a8f0-ffb6825f7494.jpg)
+    
+    deviceid和vid是固定不变的，cst是客户端生成的，所以需要逆向企业微信看生成的算法，看能不能自己生成
+    
+    逆向ing...
+
+    
