@@ -38,7 +38,7 @@ Python2
 
     ~~关于自动打卡，可以挂在服务器上设置定时任务运行，或者直接在代码中加sleep 24h。~~
     
-    由于微文档的cookie只有一天有效期，无法持续自动打卡，所以去看了一下企业微信的授权认证方式，发现是通过传wwapp_cst、wwapp_deviceid等参数给服务端，服务端确认后才set-cookie
+    由于微文档的cookie只有一天有效期，无法持续自动打卡，因为客户端登录态是持久的，所以去看了一下企业微信的授权认证方式，发现是通过传wwapp_cst、wwapp_deviceid等参数给服务端，服务端确认后才set-cookie
     
     ![1D52FDC01412243CF39B623B0AD37268](https://user-images.githubusercontent.com/66706544/145207955-43edaed3-3b32-4dd6-a8f0-ffb6825f7494.jpg)
     
